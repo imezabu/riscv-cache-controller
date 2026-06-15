@@ -4,6 +4,14 @@ A Verilog implementation of a direct-mapped cache controller designed for the Pi
 The cache sits between the PicoRV32 processor and main memory, serving frequently accessed data directly from the cache when available and fetching data from memory on cache misses via an AXILITE interface.
 
 ## Tech Stack
-Verilog
-AXI Protocol
-FPGA Development Tools
+- Verilog
+- AXI Protocol
+- FPGA Development Tools
+
+## Attributions
+
+This was our final capstone for BUCS391r1. The contributors for this project were:
+- Isaac Meza
+- Ruby Chen
+- Beren Akpinar
+- Michael Ross
